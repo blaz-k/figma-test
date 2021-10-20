@@ -1,0 +1,40 @@
+body {
+  font-family: Poppins;
+}
+.btn-outline-primary {
+  color: #2d76f9;
+  border: 1.5px solid #2d76f9;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.btn-outline-primary:hover {
+  background-color: #2d76f9;
+}
+
+.my-nav {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 18px;
+}
+
+.navbar-brand {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+
+.nav-item {
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+  .my-nav {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 18px;
+  }
+}
