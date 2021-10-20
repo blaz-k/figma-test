@@ -1,6 +1,22 @@
 body {
   font-family: Poppins;
+  background-color: white;
+  border: 1px solid rgb(197, 194, 194);
+  border-radius: 100px 0px 100px 0px;
 }
+
+.btn-primary {
+  width: 250px;
+  height: 75px;
+  background: #2d76f9;
+  border-radius: 1500px;
+  padding-left: 58px;
+  padding-right: 58px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 50px;
+}
+
 .btn-outline-primary {
   color: #2d76f9;
   border: 1.5px solid #2d76f9;
@@ -15,6 +31,24 @@ body {
   background-color: #2d76f9;
 }
 
+.col-right {
+  background-color: #d6e5fd;
+  border-radius: 0px 0px 0px 100px;
+}
+
+.col-text {
+  width: 533px;
+  font-size: 18px;
+  color: #747474;
+  margin-top: 40px;
+}
+.col-title {
+  width: 533px;
+  height: 255px;
+  margin-top: 200px;
+  font-weight: 600;
+  font-size: 64px;
+}
 .my-nav {
   margin-left: 10%;
   margin-right: 10%;
@@ -37,4 +71,54 @@ body {
     margin-right: 0%;
     margin-top: 18px;
   }
+}
+
+#phone {
+  position: absolute;
+  width: 270px;
+  height: 583.43px;
+  margin-top: 163px;
+  margin-left: 215px;
+}
+
+#phone-top {
+  position: absolute;
+  margin-left: 87px;
+  margin-top: 181px;
+}
+
+#phone-middle {
+  position: absolute;
+  margin-left: 309px;
+  margin-top: 352px;
+}
+
+#phone-bottom {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 528px;
+}
+
+#krog {
+  position: absolute;
+  width: 513px;
+  height: 513px;
+  margin-left: 384px;
+  margin-top: 490px;
+
+  border: 100px solid #f5f9ff;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+#circle-up {
+  position: absolute;
+  width: 513px;
+  height: 513px;
+  margin-left: -118px;
+  margin-top: -181px;
+
+  border: 100px solid #f5f9ff;
+  box-sizing: border-box;
+  border-radius: 50%;
 }
