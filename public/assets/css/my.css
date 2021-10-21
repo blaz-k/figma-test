@@ -6,9 +6,9 @@ body {
 }
 
 /* NAVBAR */
-S .my-nav {
-  margin-left: 10%;
-  margin-right: 10%;
+.my-nav {
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 18px;
 }
 
@@ -119,6 +119,11 @@ S .my-nav {
   border-radius: 50%;
 }
 
+.my-hero {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 /* MEDIA */
 @media only screen and (max-width: 400px) {
   .my-nav {
@@ -128,13 +133,13 @@ S .my-nav {
   }
 }
 
-/* FEATURES */
+/* FEATURES SECTION */
 
 #features {
   height: 288px;
   margin-top: 150px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .col {
@@ -146,6 +151,7 @@ S .my-nav {
   margin-top: 72px;
   color: #212121;
   font-size: 24px;
+  font-weight: bold;
 }
 .far {
   margin-left: 22px;
@@ -168,3 +174,5 @@ S .my-nav {
   color: #747474;
   margin-top: 30px;
 }
+
+/* ADVANTAGE SECTION */
