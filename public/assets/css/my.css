@@ -121,7 +121,7 @@ body {
 
 .my-hero {
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 0%;
 }
 
 /* MEDIA */
@@ -147,7 +147,7 @@ body {
   height: 288px;
 }
 
-.col h4 {
+#features h4 {
   margin-top: 72px;
   color: #212121;
   font-size: 24px;
@@ -169,10 +169,74 @@ body {
   color: #2d76f9;
 }
 
-.col h5 {
+#features h5 {
   font-size: 18px;
   color: #747474;
   margin-top: 30px;
 }
 
 /* ADVANTAGE SECTION */
+#advantage {
+}
+
+/* ADVANTAGE UP */
+
+.advantage-up {
+  width: 100%;
+  height: 600px;
+  margin-top: 150px;
+}
+.advantage-left {
+  background-color: #eef4ff;
+  border-radius: 0px 100px 100px 0px;
+}
+.advantage-right h4 {
+  margin-top: 72px;
+  color: #212121;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  margin-left: 147px;
+  margin-right: 15%;
+  margin-top: 130px;
+}
+.advantage-right h5 {
+  color: #747474;
+  font-style: regular;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 147px;
+  margin-right: 10%;
+}
+
+.advantage-dw {
+  width: 100%;
+  height: 600px;
+  margin-top: 150px;
+}
+.advantage-dw-right {
+  background: #eef4ff;
+  border-radius: 100px 100px 100px 100px;
+}
+.advantage-dw-left h4 {
+  margin-top: 72px;
+  color: #212121;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  margin-left: 15%;
+  margin-right: 160px;
+  margin-top: 130px;
+}
+.advantage-dw-left h5 {
+  color: #747474;
+  font-style: regular;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 160px;
+}
+
+/* ADVANTAGE DOWN */
