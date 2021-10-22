@@ -38,9 +38,9 @@ body {
 
 /* HERO SECTION */
 
+/* ZBRIS HEIGHT V BUTTONU */
+
 .btn-primary {
-  width: 250px;
-  height: 75px;
   background: #2d76f9;
   border-radius: 1500px;
   padding-left: 58px;
@@ -48,33 +48,35 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-top: 50px;
+  margin-bottom: 15%;
 }
 
+/* ZAENKRAT PROBLEM Z BACKGROUNDOM */
+/*
 .col-right {
   background-color: #d6e5fd;
   border-radius: 0px 0px 0px 100px;
+}*/
+
+.col-right {
+  display: flex;
+  justify-content: center;
 }
 
+.col-left {
+}
 .col-text {
-  width: 533px;
   font-size: 18px;
   color: #747474;
   margin-top: 40px;
 }
 .col-title {
-  width: 533px;
-  height: 255px;
   margin-top: 200px;
   font-weight: 600;
   font-size: 64px;
 }
 
 #phone {
-  position: absolute;
-  width: 270px;
-  height: 583.43px;
-  margin-top: 163px;
-  margin-left: 215px;
 }
 
 #phone-top {
@@ -96,8 +98,8 @@ body {
 }
 
 #krog {
-  position: absolute;
-  width: 513px;
+  position: relative;
+  width: 32rem;
   height: 513px;
   margin-left: 384px;
   margin-top: 490px;
@@ -109,6 +111,7 @@ body {
 
 #circle-up {
   position: absolute;
+
   width: 513px;
   height: 513px;
   margin-left: -118px;
@@ -122,6 +125,7 @@ body {
 .my-hero {
   margin-left: 5%;
   margin-right: 0%;
+  margin-top: 5%;
 }
 
 /* MEDIA */
@@ -136,107 +140,106 @@ body {
 /* FEATURES SECTION */
 
 #features {
-  height: 288px;
-  margin-top: 150px;
-  margin-left: 5%;
+  margin-top: 10%;
+  margin-left: 1%;
   margin-right: 5%;
 }
 
-.col {
-  width: 387px;
-  height: 288px;
-}
-
 #features h4 {
-  margin-top: 72px;
+  margin-top: 8%;
   color: #212121;
   font-size: 24px;
   font-weight: bold;
 }
 .far {
-  margin-left: 22px;
+  margin-left: 5%;
   background: #eef4ff;
   border-radius: 100px;
   opacity: 0.5;
   color: #2d76f9;
+  margin-top: 5%;
 }
 
 .fas {
-  margin-left: 22px;
+  margin-left: 5%;
   background: #eef4ff;
   border-radius: 100px;
   opacity: 0.5;
   color: #2d76f9;
+  margin-top: 5%;
 }
 
 #features h5 {
   font-size: 18px;
   color: #747474;
-  margin-top: 30px;
+  margin-top: 7%;
 }
 
 /* ADVANTAGE SECTION */
-#advantage {
-}
 
 /* ADVANTAGE UP */
 
 .advantage-up {
-  width: 100%;
-  height: 600px;
-  margin-top: 150px;
+  margin-top: 8%;
 }
 .advantage-left {
   background-color: #eef4ff;
   border-radius: 0px 100px 100px 0px;
 }
 .advantage-right h4 {
-  margin-top: 72px;
   color: #212121;
   font-weight: 600;
   font-size: 36px;
   line-height: 65px;
-  margin-left: 147px;
+  margin-left: 15%;
   margin-right: 15%;
-  margin-top: 130px;
+  margin-top: 20%;
 }
 .advantage-right h5 {
   color: #747474;
   font-style: regular;
   font-weight: 400;
   font-size: 18px;
-  margin-top: 50px;
-  margin-left: 147px;
+  margin-top: 5%;
+  margin-left: 15%;
   margin-right: 10%;
 }
 
+/* ADVANTAGE DOWN */
 .advantage-dw {
-  width: 100%;
-  height: 600px;
-  margin-top: 150px;
+  margin-top: 5%;
 }
 .advantage-dw-right {
   background: #eef4ff;
   border-radius: 100px 100px 100px 100px;
 }
 .advantage-dw-left h4 {
-  margin-top: 72px;
   color: #212121;
   font-weight: 600;
   font-size: 36px;
   line-height: 65px;
   margin-left: 15%;
-  margin-right: 160px;
-  margin-top: 130px;
+  margin-right: 15%;
+  margin-top: 20%;
 }
 .advantage-dw-left h5 {
   color: #747474;
   font-style: regular;
   font-weight: 400;
   font-size: 18px;
-  margin-top: 50px;
+  margin-top: 5%;
   margin-left: 15%;
-  margin-right: 160px;
+  margin-right: 10%;
 }
 
-/* ADVANTAGE DOWN */
+/* USER SECTION */
+
+#user-section {
+  margin-top: 150px;
+  background-color: #2d76f9;
+}
+
+#user-section h4 {
+  color: red;
+  margin-top: 100px;
+}
