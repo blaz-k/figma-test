@@ -295,7 +295,51 @@ body {
 
 /* TESTIMONIAL SECTION */
 
+.clearfix {
+  margin-top: 7%;
+  margin-left: 15%;
+}
+
+.clearfix h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #212121;
+}
+
+.clearfix h6 {
+  margin-top: 10%;
+  font-size: 14px;
+  line-height: 21px;
+  color: #747474;
+}
+
+.testimonial-left {
+  background: green;
+  border-radius: 0px 100px 100px 0px;
+}
+
+.testimonial-right h4 {
+  margin-top: 5%;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 400;
+  margin-left: 15%;
+}
+
+.testimonial-right i {
+  margin-left: 15%;
+}
+
+.testimonial-right h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 #testimonial-section {
-  height: 500px;
-  background: grey;
+  margin-bottom: 20px;
+  margin-top: 6rem;
 }
