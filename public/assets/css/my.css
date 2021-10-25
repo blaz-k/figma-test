@@ -231,10 +231,10 @@ body {
 #user-section {
   margin-top: 150px;
   background-color: #2d76f9;
-  height: 500px;
   text-align: center;
   justify-content: center;
   margin-top: 10%;
+  margin-right: 250px;
 }
 
 #user-section h4 {
@@ -246,14 +246,25 @@ body {
 }
 
 #user-section .btn-outline-primary {
-  color: red;
+  color: white;
+  border: 1.5px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 1500px;
+  margin: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 #user-section .btn-light {
-  color: green;
   border-radius: 1500px;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2d76f9;
 }
