@@ -1,26 +1,11 @@
 body {
   font-family: Poppins;
   background-color: white;
-  border: 1px solid rgb(197, 194, 194);
-  border-radius: 100px 0px 100px 0px;
 }
-
+.container {
+  max-width: 98%;
+}
 /* NAVBAR */
-.my-nav {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 18px;
-}
-
-.navbar-brand {
-  font-family: "Nunito", sans-serif;
-  font-size: 18px;
-}
-
-.nav-item {
-  font-size: 18px;
-  margin-left: 50px;
-}
 
 .btn-outline-primary {
   color: #2d76f9;
@@ -36,9 +21,23 @@ body {
   background-color: #2d76f9;
 }
 
-/* HERO SECTION */
+.my-nav {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 18px;
+}
 
-/* ZBRIS HEIGHT V BUTTONU */
+.nav-item {
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.navbar-brand {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+
+/* HERO SECTION */
 
 .btn-primary {
   background: #2d76f9;
@@ -57,6 +56,19 @@ body {
   border-radius: 0px 0px 0px 100px;
 }*/
 
+#circle-up {
+  position: absolute;
+
+  width: 513px;
+  height: 513px;
+  margin-left: -118px;
+  margin-top: -181px;
+
+  border: 100px solid #f5f9ff;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
 .col-right {
   display: flex;
   justify-content: center;
@@ -73,24 +85,6 @@ body {
   font-size: 64px;
 }
 
-#phone-top {
-  position: absolute;
-  margin-left: 87px;
-  margin-top: 181px;
-}
-
-#phone-middle {
-  position: absolute;
-  margin-left: 309px;
-  margin-top: 352px;
-}
-
-#phone-bottom {
-  position: absolute;
-  margin-left: 50px;
-  margin-top: 528px;
-}
-
 #krog {
   position: relative;
   width: 32rem;
@@ -103,48 +97,58 @@ body {
   border-radius: 50%;
 }
 
-#circle-up {
-  position: absolute;
-
-  width: 513px;
-  height: 513px;
-  margin-left: -118px;
-  margin-top: -181px;
-
-  border: 100px solid #f5f9ff;
-  box-sizing: border-box;
-  border-radius: 50%;
-}
-
 .my-hero {
   margin-left: 5%;
   margin-right: 0%;
   margin-top: 5%;
 }
 
+#phone-bottom {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 528px;
+}
+
+#phone-middle {
+  position: absolute;
+  margin-left: 309px;
+  margin-top: 352px;
+}
+
+#phone-top {
+  position: absolute;
+  margin-left: 87px;
+  margin-top: 181px;
+}
+
 /* MEDIA */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .my-nav {
     margin-left: 0%;
     margin-right: 0%;
     margin-top: 18px;
   }
+
+  .btn-primary {
+    background: red;
+  }
+
+  .col-right {
+    margin-top: 100px;
+  }
+
+  .col-title {
+    margin-top: 50px;
+  }
+  #user-section {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 2%;
+  }
 }
 
 /* FEATURES SECTION */
 
-#features {
-  margin-top: 10%;
-  margin-left: 1%;
-  margin-right: 5%;
-}
-
-#features h4 {
-  margin-top: 8%;
-  color: #212121;
-  font-size: 24px;
-  font-weight: bold;
-}
 .far {
   margin-left: 5%;
   background: #eef4ff;
@@ -163,6 +167,19 @@ body {
   margin-top: 5%;
 }
 
+#features {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#features h4 {
+  margin-top: 8%;
+  color: #212121;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 #features h5 {
   font-size: 18px;
   color: #747474;
@@ -173,13 +190,11 @@ body {
 
 /* ADVANTAGE UP */
 
-.advantage-up {
-  margin-top: 8%;
-}
 .advantage-left {
   background-color: #eef4ff;
   border-radius: 0px 100px 100px 0px;
 }
+
 .advantage-right h4 {
   color: #212121;
   font-weight: 600;
@@ -199,14 +214,15 @@ body {
   margin-right: 10%;
 }
 
+.advantage-up {
+  margin-top: 8%;
+}
+
 /* ADVANTAGE DOWN */
 .advantage-dw {
   margin-top: 8%;
 }
-.advantage-dw-right {
-  background: #eef4ff;
-  border-radius: 100px 100px 100px 100px;
-}
+
 .advantage-dw-left h4 {
   color: #212121;
   font-weight: 600;
@@ -226,23 +242,23 @@ body {
   margin-right: 10%;
 }
 
+.advantage-dw-right {
+  background: #eef4ff;
+  border-radius: 100px 100px 100px 100px;
+}
+
 /* USER SECTION */
 
 #user-section {
   margin-top: 150px;
-  background-color: #2d76f9;
+  background: #2d76f9;
+  border-radius: 50px;
   text-align: center;
   justify-content: center;
   margin-top: 10%;
-  margin-right: 250px;
-}
-
-#user-section h4 {
-  color: #ffffff;
-  margin-top: 100px;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 65px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 10px;
 }
 
 #user-section .btn-outline-primary {
@@ -267,4 +283,19 @@ body {
   font-size: 18px;
   line-height: 27px;
   color: #2d76f9;
+}
+
+#user-section h4 {
+  color: #ffffff;
+  margin-top: 100px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonial-section {
+  height: 500px;
+  background: grey;
 }
