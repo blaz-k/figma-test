@@ -147,6 +147,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 660px) {
+  .testimonial-left {
+    display: none;
+  }
+}
+
 /* FEATURES SECTION */
 
 .far {
@@ -315,9 +321,36 @@ body {
 }
 
 .testimonial-left {
-  background: green;
+  background: #eef4ff;
   border-radius: 0px 100px 100px 0px;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-right: 4%;
 }
+.ph-1 {
+  margin-left: 40%;
+}
+.ph-2 {
+  margin-left: 30%;
+}
+.ph-3 {
+  margin-left: 53%;
+}
+.ph-4 {
+  margin-left: 40%;
+}
+
+/* KAKO POZICIONIRATI MED SLIKAMI DA BO OSTALO ISTO KO ZMANJSAS*/
+/*
+.crtice {
+  border: 2.5px dashed #2d76f9;
+  border-radius: 50px;
+  position: absolute;
+  width: 28%;
+  height: 28%;
+  left: 12%;
+  top: 376%;
+}*/
 
 .testimonial-right h4 {
   margin-top: 5%;
