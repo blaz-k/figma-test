@@ -343,3 +343,50 @@ body {
   margin-bottom: 20px;
   margin-top: 6rem;
 }
+
+/* FOOTER SECTION */
+
+#footer-section {
+  margin-top: 15rem;
+}
+
+#footer-section a {
+  font-size: 18px;
+  line-height: 200%;
+  color: #747474;
+}
+
+#footer-section h3 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+#footer-section h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+}
+
+#footer-section p {
+  color: #747474;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 200%;
+}
+
+#footer-section .one {
+  margin-right: 8rem;
+}
+
+#footer-section .three {
+  margin-right: 3rem;
+}
+#footer-section .four {
+  margin-right: 8rem;
+}
