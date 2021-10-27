@@ -105,20 +105,45 @@ body {
 
 #phone-bottom {
   position: absolute;
-  margin-left: 50px;
-  margin-top: 528px;
+  margin-left: -150px;
+  margin-top: 410px;
 }
 
 #phone-middle {
   position: absolute;
-  margin-left: 309px;
-  margin-top: 352px;
+  margin-left: 149px;
+  margin-top: 203px;
 }
 
 #phone-top {
   position: absolute;
-  margin-left: 87px;
-  margin-top: 181px;
+  margin-left: -230px;
+  margin-top: 55px;
+  background-color: #ffffff;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 25px;
+}
+
+#easy {
+  background-color: #2d76f9;
+  color: #ffffff;
+  border-radius: 15px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#to-use {
+  color: #2d76f9;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 1rem;
 }
 
 /* FEATURES SECTION */
@@ -246,17 +271,17 @@ body {
   line-height: 27px;
 }
 
-#user-section .btn-light {
+#user-section .secundo {
+  background-color: white;
+  border: 1.5px solid #ffffff;
   border-radius: 1500px;
-  box-sizing: border-box;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  margin-top: 1rem;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   color: #2d76f9;
+  margin-left: 30px;
+  margin-bottom: 15px;
 }
 
 #user-section h4 {
@@ -307,18 +332,6 @@ body {
 .ph-4 {
   margin-left: 40%;
 }
-
-/* KAKO POZICIONIRATI MED SLIKAMI DA BO OSTALO ISTO KO ZMANJSAS*/
-/*
-.crtice {
-  border: 2.5px dashed #2d76f9;
-  border-radius: 50px;
-  position: absolute;
-  width: 28%;
-  height: 28%;
-  left: 12%;
-  top: 376%;
-}*/
 
 .testimonial-right h4 {
   margin-top: 5%;
@@ -396,16 +409,12 @@ body {
   color: #2d76f9;
 }
 
-/* MEDIA */
-@media only screen and (max-width: 420px) {
+/*<----------------------- MEDIA ------------------------------------>*/
+@media only screen and (max-width: 460px) {
   .my-nav {
     margin-left: 0%;
     margin-right: 0%;
     margin-top: 18px;
-  }
-
-  .btn-primary {
-    background: red;
   }
 
   .col-right {
@@ -415,11 +424,37 @@ body {
   .col-title {
     margin-top: 50px;
   }
+  /* HERO SECTION */
+
+  #phone-bottom {
+    position: absolute;
+    margin-left: -70px;
+    margin-top: 410px;
+  }
+
+  #phone-middle {
+    position: absolute;
+    margin-left: 149px;
+    margin-top: 203px;
+  }
+
+  #phone-top {
+    position: absolute;
+    margin-left: -130px;
+    margin-top: 55px;
+    background-color: #ffffff;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 25px;
+  }
+  /* USER SECTION*/
   #user-section {
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 2%;
   }
+
+  /* FOOTER SECTION */
   #footer-section .two {
     margin-top: 3rem;
   }
@@ -430,10 +465,41 @@ body {
   #footer-section .four {
     margin-top: 3rem;
   }
+  .four i {
+    margin-right: 1rem;
+    color: #2d76f9;
+  }
 }
 
 @media only screen and (max-width: 660px) {
   .testimonial-left {
     display: none;
+  }
+
+  #footer-section {
+    margin-top: 5rem;
+  }
+  #user-section .btn-outline-primary {
+    color: white;
+    border: 1.5px solid #ffffff;
+    border-radius: 1500px;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    margin-left: 50px;
+  }
+
+  #user-section .secundo {
+    background-color: white;
+    border: 1.5px solid #ffffff;
+    border-radius: 1500px;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    color: #2d76f9;
+    margin-left: 50px;
+    margin-bottom: 15px;
   }
 }
